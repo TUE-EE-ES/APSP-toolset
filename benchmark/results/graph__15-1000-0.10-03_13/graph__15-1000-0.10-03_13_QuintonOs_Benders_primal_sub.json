@@ -1,0 +1,3008 @@
+{
+    "CPLEXSolution": {
+        "version": "1.0",
+        "header": {
+            "problemName": "Quinton Bounded Benders_primal_sub",
+            "objectiveValue": "0.0001554726368159204",
+            "solved_by": "cplex_local"
+        },
+        "variables": [
+            {
+                "index": "0",
+                "name": "u_a0",
+                "value": "0.7125310945273632",
+                "reducedCost": 0
+            },
+            {
+                "index": "1",
+                "name": "u_a1",
+                "value": "0.7762748756218899",
+                "reducedCost": 0
+            },
+            {
+                "index": "2",
+                "name": "u_a2",
+                "value": "0.5974813432835822",
+                "reducedCost": 0
+            },
+            {
+                "index": "3",
+                "name": "u_a3",
+                "value": "0.3499689054726368",
+                "reducedCost": 0
+            },
+            {
+                "index": "4",
+                "name": "u_a4",
+                "value": "0.4956467661691542",
+                "reducedCost": 0
+            },
+            {
+                "index": "5",
+                "name": "u_a5",
+                "value": "0.49564676616915426",
+                "reducedCost": 0
+            },
+            {
+                "index": "6",
+                "name": "u_a6",
+                "value": "11.162624378109452",
+                "reducedCost": 0
+            },
+            {
+                "index": "7",
+                "name": "u_a7",
+                "value": "11.616449004975124",
+                "reducedCost": 0
+            },
+            {
+                "index": "8",
+                "name": "u_a8",
+                "value": "0.26134950248756217",
+                "reducedCost": 0
+            },
+            {
+                "index": "9",
+                "name": "u_a9",
+                "value": "11.024875621890546",
+                "reducedCost": 0
+            },
+            {
+                "index": "10",
+                "name": "u_a10",
+                "value": "0.8306902985074627",
+                "reducedCost": 0
+            },
+            {
+                "index": "12",
+                "name": "u_a12",
+                "value": "0.958022388059701",
+                "reducedCost": 0
+            },
+            {
+                "index": "13",
+                "name": "u_a13",
+                "value": "0.15733830845771146",
+                "reducedCost": 0
+            },
+            {
+                "index": "14",
+                "name": "u_a14",
+                "value": "0.29648631840796014",
+                "reducedCost": 0
+            },
+            {
+                "index": "15",
+                "name": "tau",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "16",
+                "name": "y_a0_proc_1",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "18",
+                "name": "y_a1_proc_0",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "22",
+                "name": "y_a2_proc_2",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "23",
+                "name": "y_a3_proc_0",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "28",
+                "name": "y_a4_proc_2",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "29",
+                "name": "y_a5_proc_0",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "33",
+                "name": "y_a6_proc_2",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "34",
+                "name": "y_a7_proc_0",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "37",
+                "name": "y_a8_proc_1",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "41",
+                "name": "y_a9_proc_2",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "44",
+                "name": "y_a10_proc_2",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "45",
+                "name": "y_a11_proc_1",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "47",
+                "name": "y_a12_proc_0",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "50",
+                "name": "y_a13_proc_1",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            },
+            {
+                "index": "54",
+                "name": "y_a14_proc_2",
+                "value": "0.00015547263681592045",
+                "reducedCost": 0
+            }
+        ],
+        "linearConstraints": [
+            {
+                "name": null,
+                "index": 0,
+                "slack": 0.0011603168368682902
+            },
+            {
+                "name": null,
+                "index": 1,
+                "dual": -0.11815920398009956
+            },
+            {
+                "name": null,
+                "index": 2,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 3
+            },
+            {
+                "name": null,
+                "index": 4,
+                "slack": 0.0006999593563406236
+            },
+            {
+                "name": null,
+                "index": 5
+            },
+            {
+                "name": null,
+                "index": 6,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 7
+            },
+            {
+                "name": null,
+                "index": 8,
+                "slack": 0.0011958787145354309
+            },
+            {
+                "name": null,
+                "index": 9,
+                "dual": -0.11504975124378113
+            },
+            {
+                "name": null,
+                "index": 10
+            },
+            {
+                "name": null,
+                "index": 11
+            },
+            {
+                "name": null,
+                "index": 12,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 13,
+                "slack": 0.0009117632223089462
+            },
+            {
+                "name": null,
+                "index": 14,
+                "dual": -0.1456778606965174
+            },
+            {
+                "name": null,
+                "index": 15,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 16
+            },
+            {
+                "name": null,
+                "index": 17,
+                "dual": 0.0055970149253731505
+            },
+            {
+                "name": null,
+                "index": 18,
+                "slack": 0.001371244920435988
+            },
+            {
+                "name": null,
+                "index": 19,
+                "dual": -0.10183457711442787
+            },
+            {
+                "name": null,
+                "index": 20,
+                "dual": 0.10183457711442787
+            },
+            {
+                "name": null,
+                "index": 21,
+                "dual": 0.10183457711442787
+            },
+            {
+                "name": null,
+                "index": 22,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 23,
+                "slack": 0.0011315286501853666
+            },
+            {
+                "name": null,
+                "index": 24
+            },
+            {
+                "name": null,
+                "index": 25,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 26
+            },
+            {
+                "name": null,
+                "index": 27,
+                "slack": 0.0010059675490145092
+            },
+            {
+                "name": null,
+                "index": 28
+            },
+            {
+                "name": null,
+                "index": 29
+            },
+            {
+                "name": null,
+                "index": 30
+            },
+            {
+                "name": null,
+                "index": 31,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 32,
+                "slack": 0.0008172900090984765
+            },
+            {
+                "name": null,
+                "index": 33
+            },
+            {
+                "name": null,
+                "index": 34,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 35
+            },
+            {
+                "name": null,
+                "index": 36
+            },
+            {
+                "name": null,
+                "index": 37,
+                "slack": 0.0015989133280963604
+            },
+            {
+                "name": null,
+                "index": 38,
+                "dual": -0.08861940298507456
+            },
+            {
+                "name": null,
+                "index": 39,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 40
+            },
+            {
+                "name": null,
+                "index": 41,
+                "slack": 0.0009731955347416415
+            },
+            {
+                "name": null,
+                "index": 42
+            },
+            {
+                "name": null,
+                "index": 43
+            },
+            {
+                "name": null,
+                "index": 44
+            },
+            {
+                "name": null,
+                "index": 45,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 46,
+                "slack": 0.0007628010087304524
+            },
+            {
+                "name": null,
+                "index": 47,
+                "dual": -0.16930970149253732
+            },
+            {
+                "name": null,
+                "index": 48
+            },
+            {
+                "name": null,
+                "index": 49
+            },
+            {
+                "name": null,
+                "index": 50,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 51,
+                "slack": 0.0008326696556741981
+            },
+            {
+                "name": null,
+                "index": 52,
+                "dual": -0.15733830845771146
+            },
+            {
+                "name": null,
+                "index": 53,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 54
+            },
+            {
+                "name": null,
+                "index": 55,
+                "slack": 0.0011103501479942063
+            },
+            {
+                "name": null,
+                "index": 56
+            },
+            {
+                "name": null,
+                "index": 57,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 58
+            },
+            {
+                "name": null,
+                "index": 59,
+                "slack": 0.0013392956740958884
+            },
+            {
+                "name": null,
+                "index": 60,
+                "dual": -0.10401119402985076
+            },
+            {
+                "name": null,
+                "index": 61,
+                "dual": 0.10401119402985076
+            },
+            {
+                "name": null,
+                "index": 62,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 63,
+                "dual": 0.10401119402985076
+            },
+            {
+                "name": null,
+                "index": 64,
+                "slack": 0.0006251674880864995
+            },
+            {
+                "name": null,
+                "index": 65
+            },
+            {
+                "name": null,
+                "index": 66
+            },
+            {
+                "name": null,
+                "index": 67
+            },
+            {
+                "name": null,
+                "index": 68,
+                "slack": 0.9998445273631841
+            },
+            {
+                "name": null,
+                "index": 69,
+                "slack": -0.9455845771144271
+            },
+            {
+                "name": null,
+                "index": 70,
+                "dual": -0.00015547263681592045
+            },
+            {
+                "name": null,
+                "index": 71,
+                "slack": -0.1018345771144279
+            },
+            {
+                "name": null,
+                "index": 72,
+                "dual": -0.00015547263681592037
+            },
+            {
+                "name": null,
+                "index": 73
+            },
+            {
+                "name": null,
+                "index": 74,
+                "slack": -10.33193407960199
+            },
+            {
+                "name": null,
+                "index": 75,
+                "slack": -0.3199626865671643
+            },
+            {
+                "name": null,
+                "index": 76,
+                "slack": -0.6449004975124378
+            },
+            {
+                "name": null,
+                "index": 77,
+                "slack": -0.4538246268656714
+            },
+            {
+                "name": null,
+                "index": 78,
+                "dual": -0.00015547263681592048
+            },
+            {
+                "name": null,
+                "index": 79,
+                "slack": -0.5551927860696517
+            },
+            {
+                "name": null,
+                "index": 80
+            },
+            {
+                "name": null,
+                "index": 81,
+                "dual": -0.00015547263681592042
+            },
+            {
+                "name": null,
+                "index": 82,
+                "slack": -0.6800373134328357
+            },
+            {
+                "name": null,
+                "index": 83,
+                "slack": -0.414800995024876
+            },
+            {
+                "name": null,
+                "index": 84,
+                "slack": -10.67490671641791
+            },
+            {
+                "name": null,
+                "index": 85,
+                "dual": -0.0001554726368159203
+            },
+            {
+                "name": null,
+                "index": 86,
+                "slack": -0.21688432835820892
+            },
+            {
+                "name": null,
+                "index": 87,
+                "slack": -0.8791977611940298
+            },
+            {
+                "name": null,
+                "index": 88,
+                "slack": -0.8401741293532338
+            },
+            {
+                "name": null,
+                "index": 89,
+                "slack": -0.08861940298507458
+            },
+            {
+                "name": null,
+                "index": 90,
+                "slack": -0.48072139303482586
+            },
+            {
+                "name": null,
+                "index": 91,
+                "slack": -0.1018345771144279
+            },
+            {
+                "name": null,
+                "index": 92,
+                "dual": -0.0001554726368159204
+            },
+            {
+                "name": null,
+                "index": 93,
+                "slack": -5.551115123125783e-17
+            },
+            {
+                "name": null,
+                "index": 94,
+                "slack": -0.2964863184079601
+            },
+            {
+                "name": null,
+                "index": 95,
+                "slack": 6.938893903907228e-17
+            },
+            {
+                "name": null,
+                "index": 96,
+                "slack": -10.56514303482587
+            },
+            {
+                "name": null,
+                "index": 97
+            },
+            {
+                "name": null,
+                "index": 98,
+                "slack": -0.3350435323383084
+            },
+            {
+                "name": null,
+                "index": 99,
+                "slack": -0.6954291044776119
+            },
+            {
+                "name": null,
+                "index": 100,
+                "slack": -2581.063743781094
+            },
+            {
+                "name": null,
+                "index": 101,
+                "slack": -2615.936256218906
+            },
+            {
+                "name": null,
+                "index": 102,
+                "slack": -1316.8849502487562
+            },
+            {
+                "name": null,
+                "index": 103,
+                "slack": -1316.766791044776
+            },
+            {
+                "name": null,
+                "index": 104,
+                "slack": -1282.0
+            },
+            {
+                "name": null,
+                "index": 105,
+                "slack": -1282.1150497512438
+            },
+            {
+                "name": null,
+                "index": 106,
+                "slack": -2615.637437810945
+            },
+            {
+                "name": null,
+                "index": 107,
+                "slack": -1316.5192786069651
+            },
+            {
+                "name": null,
+                "index": 108,
+                "slack": -2581.362562189055
+            },
+            {
+                "name": null,
+                "index": 109,
+                "slack": -1282.3625621890546
+            },
+            {
+                "name": null,
+                "index": 110,
+                "slack": -1316.7831156716418
+            },
+            {
+                "name": null,
+                "index": 111,
+                "slack": -1316.6649564676616
+            },
+            {
+                "name": null,
+                "index": 112,
+                "slack": -1282.1150497512438
+            },
+            {
+                "name": null,
+                "index": 113,
+                "slack": -1282.2168843283582
+            },
+            {
+                "name": null,
+                "index": 114,
+                "slack": -2580.7831156716416
+            },
+            {
+                "name": null,
+                "index": 115,
+                "slack": -2616.2168843283584
+            },
+            {
+                "name": null,
+                "index": 116,
+                "slack": -1327.4500932835822
+            },
+            {
+                "name": null,
+                "index": 117,
+                "slack": -1327.331934079602
+            },
+            {
+                "name": null,
+                "index": 118,
+                "slack": -1271.4160447761194
+            },
+            {
+                "name": null,
+                "index": 119,
+                "slack": -1271.5499067164178
+            },
+            {
+                "name": null,
+                "index": 120,
+                "slack": -2626.9039179104475
+            },
+            {
+                "name": null,
+                "index": 121,
+                "slack": -1327.7857587064675
+            },
+            {
+                "name": null,
+                "index": 122,
+                "slack": -2570.0960820895525
+            },
+            {
+                "name": null,
+                "index": 123,
+                "slack": -1271.0960820895523
+            },
+            {
+                "name": null,
+                "index": 124,
+                "slack": -2598.54881840796
+            },
+            {
+                "name": null,
+                "index": 125,
+                "slack": -0.43065920398009944
+            },
+            {
+                "name": null,
+                "index": 126,
+                "slack": -2598.45118159204
+            },
+            {
+                "name": null,
+                "index": 127,
+                "slack": -0.36256218905472637
+            },
+            {
+                "name": null,
+                "index": 128,
+                "slack": -1327.3123445273632
+            },
+            {
+                "name": null,
+                "index": 129,
+                "slack": -1327.194185323383
+            },
+            {
+                "name": null,
+                "index": 130,
+                "slack": -1271.549906716418
+            },
+            {
+                "name": null,
+                "index": 131,
+                "slack": -1271.6876554726368
+            },
+            {
+                "name": null,
+                "index": 132,
+                "slack": -1317.1181592039802
+            },
+            {
+                "name": null,
+                "index": 133,
+                "slack": -1317.0
+            },
+            {
+                "name": null,
+                "index": 134,
+                "slack": -1281.7125310945273
+            },
+            {
+                "name": null,
+                "index": 135,
+                "slack": -1281.8818407960198
+            },
+            {
+                "name": null,
+                "index": 136,
+                "slack": -2598.2874689054725
+            },
+            {
+                "name": null,
+                "index": 137,
+                "slack": -0.16930970149253727
+            },
+            {
+                "name": null,
+                "index": 138,
+                "slack": -2598.7125310945275
+            },
+            {
+                "name": null,
+                "index": 139,
+                "slack": -0.5551927860696517
+            },
+            {
+                "name": null,
+                "index": 140,
+                "slack": -1317.127332089552
+            },
+            {
+                "name": null,
+                "index": 141,
+                "slack": -1281.7545087064677
+            },
+            {
+                "name": null,
+                "index": 142,
+                "slack": -2598.4448072139303
+            },
+            {
+                "name": null,
+                "index": 143,
+                "slack": -0.32664800995024873
+            },
+            {
+                "name": null,
+                "index": 144,
+                "slack": -2598.5551927860697
+            },
+            {
+                "name": null,
+                "index": 145,
+                "slack": -0.45118159203980096
+            },
+            {
+                "name": null,
+                "index": 146,
+                "slack": -1316.5839552238806
+            },
+            {
+                "name": null,
+                "index": 147,
+                "slack": -1316.4657960199004
+            },
+            {
+                "name": null,
+                "index": 148,
+                "slack": -1282.2168843283582
+            },
+            {
+                "name": null,
+                "index": 149,
+                "slack": -1282.4160447761194
+            },
+            {
+                "name": null,
+                "index": 150,
+                "slack": -1316.8212064676616
+            },
+            {
+                "name": null,
+                "index": 151,
+                "slack": -1316.6394589552237
+            },
+            {
+                "name": null,
+                "index": 152,
+                "slack": -1282.0637437810947
+            },
+            {
+                "name": null,
+                "index": 153,
+                "slack": -1282.1787935323384
+            },
+            {
+                "name": null,
+                "index": 154,
+                "slack": -2598.5736940298507
+            },
+            {
+                "name": null,
+                "index": 155,
+                "slack": -0.39194651741293607
+            },
+            {
+                "name": null,
+                "index": 156,
+                "slack": -2598.4263059701493
+            },
+            {
+                "name": null,
+                "index": 157,
+                "slack": -0.28062810945273564
+            },
+            {
+                "name": null,
+                "index": 158,
+                "slack": -1316.719371890547
+            },
+            {
+                "name": null,
+                "index": 159,
+                "slack": -1316.5376243781093
+            },
+            {
+                "name": null,
+                "index": 160,
+                "slack": -1282.1787935323384
+            },
+            {
+                "name": null,
+                "index": 161,
+                "slack": -1282.280628109453
+            },
+            {
+                "name": null,
+                "index": 162,
+                "slack": -2598.7193718905473
+            },
+            {
+                "name": null,
+                "index": 163,
+                "slack": -0.5376243781094533
+            },
+            {
+                "name": null,
+                "index": 164,
+                "slack": -2598.2806281094527
+            },
+            {
+                "name": null,
+                "index": 165,
+                "slack": -0.15982587064676546
+            },
+            {
+                "name": null,
+                "index": 166,
+                "slack": -1327.3863495024875
+            },
+            {
+                "name": null,
+                "index": 167,
+                "slack": -1327.2046019900497
+            },
+            {
+                "name": null,
+                "index": 168,
+                "slack": -1271.479788557214
+            },
+            {
+                "name": null,
+                "index": 169,
+                "slack": -1271.6136504975125
+            },
+            {
+                "name": null,
+                "index": 170,
+                "slack": -2598.8401741293533
+            },
+            {
+                "name": null,
+                "index": 171,
+                "slack": -0.6584266169154228
+            },
+            {
+                "name": null,
+                "index": 172,
+                "slack": -2598.1598258706467
+            },
+            {
+                "name": null,
+                "index": 173
+            },
+            {
+                "name": null,
+                "index": 174,
+                "slack": -2615.4850746268658
+            },
+            {
+                "name": null,
+                "index": 175,
+                "slack": -2581.5149253731342
+            },
+            {
+                "name": null,
+                "index": 176,
+                "slack": -1327.2486007462685
+            },
+            {
+                "name": null,
+                "index": 177,
+                "slack": -1327.0668532338307
+            },
+            {
+                "name": null,
+                "index": 178,
+                "slack": -1271.6136504975127
+            },
+            {
+                "name": null,
+                "index": 179,
+                "slack": -1271.7513992537315
+            },
+            {
+                "name": null,
+                "index": 180,
+                "slack": -1282.0544154228855
+            },
+            {
+                "name": null,
+                "index": 181,
+                "slack": -1281.8726679104477
+            },
+            {
+                "name": null,
+                "index": 182,
+                "slack": -1316.776274875622
+            },
+            {
+                "name": null,
+                "index": 183,
+                "slack": -1316.9455845771145
+            },
+            {
+                "name": null,
+                "index": 184,
+                "slack": -2615.2237251243782
+            },
+            {
+                "name": null,
+                "index": 185,
+                "slack": -2581.7762748756218
+            },
+            {
+                "name": null,
+                "index": 186
+            },
+            {
+                "name": null,
+                "index": 187,
+                "slack": -0.6954291044776119
+            },
+            {
+                "name": null,
+                "index": 188,
+                "slack": -2615.381063432836
+            },
+            {
+                "name": null,
+                "index": 189,
+                "slack": -1316.1993159203978
+            },
+            {
+                "name": null,
+                "index": 190,
+                "slack": -2581.618936567164
+            },
+            {
+                "name": null,
+                "index": 191,
+                "slack": -1282.6189365671644
+            },
+            {
+                "name": null,
+                "index": 192,
+                "slack": -1281.520211442786
+            },
+            {
+                "name": null,
+                "index": 193,
+                "slack": -1281.338463930348
+            },
+            {
+                "name": null,
+                "index": 194,
+                "slack": -1317.280628109453
+            },
+            {
+                "name": null,
+                "index": 195,
+                "slack": -1317.479788557214
+            },
+            {
+                "name": null,
+                "index": 196,
+                "slack": -1316.6374378109454
+            },
+            {
+                "name": null,
+                "index": 197,
+                "slack": -1316.7524875621891
+            },
+            {
+                "name": null,
+                "index": 198,
+                "slack": -2615.752487562189
+            },
+            {
+                "name": null,
+                "index": 199,
+                "slack": -1282.2475124378109
+            },
+            {
+                "name": null,
+                "index": 200,
+                "slack": -1282.1018345771145
+            },
+            {
+                "name": null,
+                "index": 201,
+                "slack": -2581.247512437811
+            },
+            {
+                "name": null,
+                "index": 202,
+                "slack": -0.7831156716417909
+            },
+            {
+                "name": null,
+                "index": 203,
+                "slack": -2598.8981654228855
+            },
+            {
+                "name": null,
+                "index": 204,
+                "slack": -2598.8981654228855
+            },
+            {
+                "name": null,
+                "index": 205,
+                "dual": -0.0001554726368159204
+            },
+            {
+                "name": null,
+                "index": 206,
+                "slack": -2598.1018345771145
+            },
+            {
+                "name": null,
+                "index": 207,
+                "slack": -2598.1018345771145
+            },
+            {
+                "name": null,
+                "index": 208,
+                "slack": -1316.7831156716418
+            },
+            {
+                "name": null,
+                "index": 209,
+                "slack": -1316.8981654228855
+            },
+            {
+                "name": null,
+                "index": 210,
+                "slack": -1282.1018345771145
+            },
+            {
+                "name": null,
+                "index": 211,
+                "slack": -1281.9810323383085
+            },
+            {
+                "name": null,
+                "index": 212,
+                "slack": -0.45009328358208833
+            },
+            {
+                "name": null,
+                "index": 213,
+                "slack": -2598.5651430348257
+            },
+            {
+                "name": null,
+                "index": 214,
+                "slack": -2598.5651430348257
+            },
+            {
+                "name": null,
+                "index": 215,
+                "slack": -0.3009950248756237
+            },
+            {
+                "name": null,
+                "index": 216,
+                "slack": -2598.4348569651743
+            },
+            {
+                "name": null,
+                "index": 217,
+                "slack": -2598.4348569651743
+            },
+            {
+                "name": null,
+                "index": 218,
+                "slack": -1327.9039179104477
+            },
+            {
+                "name": null,
+                "index": 219,
+                "slack": -1328.0189676616915
+            },
+            {
+                "name": null,
+                "index": 220,
+                "slack": -2627.0189676616915
+            },
+            {
+                "name": null,
+                "index": 221,
+                "slack": -1270.9810323383085
+            },
+            {
+                "name": null,
+                "index": 222,
+                "slack": -1270.8212064676618
+            },
+            {
+                "name": null,
+                "index": 223,
+                "slack": -2569.9810323383085
+            },
+            {
+                "name": null,
+                "index": 224,
+                "slack": -1316.5488184079602
+            },
+            {
+                "name": null,
+                "index": 225,
+                "slack": -1316.663868159204
+            },
+            {
+                "name": null,
+                "index": 226,
+                "slack": -1282.336131840796
+            },
+            {
+                "name": null,
+                "index": 227,
+                "slack": -1282.2475124378109
+            },
+            {
+                "name": null,
+                "index": 228,
+                "slack": -0.31234452736318197
+            },
+            {
+                "name": null,
+                "index": 229,
+                "slack": -2598.427394278607
+            },
+            {
+                "name": null,
+                "index": 230,
+                "slack": -2598.427394278607
+            },
+            {
+                "name": null,
+                "index": 231,
+                "slack": -0.43485696517413075
+            },
+            {
+                "name": null,
+                "index": 232,
+                "slack": -2598.572605721393
+            },
+            {
+                "name": null,
+                "index": 233,
+                "slack": -2598.572605721393
+            },
+            {
+                "name": null,
+                "index": 234,
+                "slack": -0.1181592039800994
+            },
+            {
+                "name": null,
+                "index": 235,
+                "slack": -2598.2332089552237
+            },
+            {
+                "name": null,
+                "index": 236,
+                "slack": -2598.2332089552237
+            },
+            {
+                "name": null,
+                "index": 237,
+                "slack": -0.5974813432835822
+            },
+            {
+                "name": null,
+                "index": 238,
+                "slack": -2598.7667910447763
+            },
+            {
+                "name": null,
+                "index": 239,
+                "slack": -2598.7667910447763
+            },
+            {
+                "name": null,
+                "index": 240,
+                "slack": -1316.2874689054727
+            },
+            {
+                "name": null,
+                "index": 241,
+                "slack": -1316.4025186567164
+            },
+            {
+                "name": null,
+                "index": 242,
+                "slack": -1282.5974813432836
+            },
+            {
+                "name": null,
+                "index": 243,
+                "slack": -1282.440143034826
+            },
+            {
+                "name": null,
+                "index": 244,
+                "slack": -1282.360541044776
+            },
+            {
+                "name": null,
+                "index": 245,
+                "slack": -2581.3605410447763
+            },
+            {
+                "name": null,
+                "index": 246,
+                "slack": -1316.5166355721394
+            },
+            {
+                "name": null,
+                "index": 247,
+                "slack": -2615.6394589552237
+            },
+            {
+                "name": null,
+                "index": 248,
+                "slack": -1316.4448072139303
+            },
+            {
+                "name": null,
+                "index": 249,
+                "slack": -2615.5598569651743
+            },
+            {
+                "name": null,
+                "index": 250,
+                "slack": -1316.559856965174
+            },
+            {
+                "name": null,
+                "index": 251,
+                "slack": -1282.440143034826
+            },
+            {
+                "name": null,
+                "index": 252,
+                "slack": -2581.4401430348257
+            },
+            {
+                "name": null,
+                "index": 253,
+                "slack": -1282.336131840796
+            },
+            {
+                "name": null,
+                "index": 254,
+                "slack": -0.5839552238805968
+            },
+            {
+                "name": null,
+                "index": 255,
+                "slack": -2598.6990049751244
+            },
+            {
+                "name": null,
+                "index": 256,
+                "slack": -2598.6990049751244
+            },
+            {
+                "name": null,
+                "index": 257,
+                "slack": -0.1018345771144279
+            },
+            {
+                "name": null,
+                "index": 258,
+                "slack": -2598.3009950248756
+            },
+            {
+                "name": null,
+                "index": 259,
+                "slack": -2598.3009950248756
+            },
+            {
+                "name": null,
+                "index": 260,
+                "slack": -1317.1456778606964
+            },
+            {
+                "name": null,
+                "index": 261,
+                "slack": -1317.0
+            },
+            {
+                "name": null,
+                "index": 262,
+                "slack": -2616.1456778606967
+            },
+            {
+                "name": null,
+                "index": 263,
+                "slack": -1281.7524875621891
+            },
+            {
+                "name": null,
+                "index": 264,
+                "slack": -1281.8543221393036
+            },
+            {
+                "name": null,
+                "index": 265,
+                "slack": -2580.8543221393033
+            },
+            {
+                "name": null,
+                "index": 266,
+                "slack": -2598.1456778606967
+            },
+            {
+                "name": null,
+                "index": 267
+            },
+            {
+                "name": null,
+                "index": 268,
+                "slack": -2598.8543221393033
+            },
+            {
+                "name": null,
+                "index": 269,
+                "slack": -0.7335199004975125
+            },
+            {
+                "name": null,
+                "index": 270,
+                "slack": -1292.8126554726368
+            },
+            {
+                "name": null,
+                "index": 271,
+                "slack": -1292.6669776119404
+            },
+            {
+                "name": null,
+                "index": 272,
+                "slack": -2591.812655472637
+            },
+            {
+                "name": null,
+                "index": 273,
+                "slack": -1306.0534825870648
+            },
+            {
+                "name": null,
+                "index": 274,
+                "slack": -1306.1873445273632
+            },
+            {
+                "name": null,
+                "index": 275,
+                "slack": -2605.187344527363
+            },
+            {
+                "name": null,
+                "index": 276,
+                "slack": -2598.2664800995026
+            },
+            {
+                "name": null,
+                "index": 277,
+                "slack": -0.12080223880596996
+            },
+            {
+                "name": null,
+                "index": 278,
+                "slack": -2598.2664800995026
+            },
+            {
+                "name": null,
+                "index": 279,
+                "slack": -2598.7335199004974
+            },
+            {
+                "name": null,
+                "index": 280,
+                "slack": -0.5736940298507461
+            },
+            {
+                "name": null,
+                "index": 281,
+                "slack": -2598.7335199004974
+            },
+            {
+                "name": null,
+                "index": 282,
+                "slack": -2615.911380597015
+            },
+            {
+                "name": null,
+                "index": 283,
+                "slack": -1316.9113805970148
+            },
+            {
+                "name": null,
+                "index": 284,
+                "slack": -2581.088619402985
+            },
+            {
+                "name": null,
+                "index": 285,
+                "slack": -1282.0
+            },
+            {
+                "name": null,
+                "index": 286,
+                "slack": -1292.6749067164178
+            },
+            {
+                "name": null,
+                "index": 287,
+                "slack": -1292.5292288557214
+            },
+            {
+                "name": null,
+                "index": 288,
+                "slack": -2591.6749067164183
+            },
+            {
+                "name": null,
+                "index": 289,
+                "slack": -1306.1873445273634
+            },
+            {
+                "name": null,
+                "index": 290,
+                "slack": -1306.3250932835822
+            },
+            {
+                "name": null,
+                "index": 291,
+                "slack": -2605.3250932835817
+            },
+            {
+                "name": null,
+                "index": 292,
+                "slack": -1317.4807213930349
+            },
+            {
+                "name": null,
+                "index": 293,
+                "slack": -1317.3350435323384
+            },
+            {
+                "name": null,
+                "index": 294,
+                "slack": -2616.480721393035
+            },
+            {
+                "name": null,
+                "index": 295,
+                "slack": -1281.3499689054727
+            },
+            {
+                "name": null,
+                "index": 296,
+                "slack": -1281.5192786069651
+            },
+            {
+                "name": null,
+                "index": 297,
+                "slack": -2580.519278606965
+            },
+            {
+                "name": null,
+                "index": 298,
+                "slack": -2615.6500310945275
+            },
+            {
+                "name": null,
+                "index": 299,
+                "slack": -1316.6500310945273
+            },
+            {
+                "name": null,
+                "index": 300,
+                "slack": -2581.3499689054725
+            },
+            {
+                "name": null,
+                "index": 301,
+                "slack": -1282.192630597015
+            },
+            {
+                "name": null,
+                "index": 302,
+                "slack": -0.4623756218905467
+            },
+            {
+                "name": null,
+                "index": 303,
+                "slack": -2598.6080534825874
+            },
+            {
+                "name": null,
+                "index": 304,
+                "slack": -0.26912313432835877
+            },
+            {
+                "name": null,
+                "index": 305,
+                "slack": -2598.3919465174126
+            },
+            {
+                "name": null,
+                "index": 306,
+                "slack": -2615.8073694029854
+            },
+            {
+                "name": null,
+                "index": 307,
+                "slack": -1316.6616915422885
+            },
+            {
+                "name": null,
+                "index": 308,
+                "slack": -1316.807369402985
+            },
+            {
+                "name": null,
+                "index": 309,
+                "slack": -2581.1926305970146
+            },
+            {
+                "name": null,
+                "index": 310,
+                "slack": -1282.192630597015
+            },
+            {
+                "name": null,
+                "index": 311,
+                "slack": -1282.0886194029852
+            },
+            {
+                "name": null,
+                "index": 312,
+                "slack": -1281.9465174129352
+            },
+            {
+                "name": null,
+                "index": 313,
+                "slack": -1281.8008395522388
+            },
+            {
+                "name": null,
+                "index": 314,
+                "slack": -2580.9465174129355
+            },
+            {
+                "name": null,
+                "index": 315,
+                "slack": -1316.8543221393036
+            },
+            {
+                "name": null,
+                "index": 316,
+                "slack": -1317.0534825870648
+            },
+            {
+                "name": null,
+                "index": 317,
+                "slack": -2616.0534825870645
+            },
+            {
+                "name": null,
+                "index": 318,
+                "slack": -1316.8981654228855
+            },
+            {
+                "name": null,
+                "index": 319,
+                "slack": -1317.0
+            },
+            {
+                "name": null,
+                "index": 320,
+                "slack": -1282.0
+            },
+            {
+                "name": null,
+                "index": 321,
+                "slack": -1281.879197761194
+            },
+            {
+                "name": null,
+                "index": 322,
+                "slack": -0.565143034825871
+            },
+            {
+                "name": null,
+                "index": 323,
+                "slack": -2598.66697761194
+            },
+            {
+                "name": null,
+                "index": 324,
+                "slack": -2598.66697761194
+            },
+            {
+                "name": null,
+                "index": 325,
+                "slack": -0.19916044776119435
+            },
+            {
+                "name": null,
+                "index": 326,
+                "slack": -2598.33302238806
+            },
+            {
+                "name": null,
+                "index": 327,
+                "slack": -2598.33302238806
+            },
+            {
+                "name": null,
+                "index": 328,
+                "slack": -1328.0189676616915
+            },
+            {
+                "name": null,
+                "index": 329,
+                "slack": -1328.120802238806
+            },
+            {
+                "name": null,
+                "index": 330,
+                "slack": -2627.120802238806
+            },
+            {
+                "name": null,
+                "index": 331,
+                "slack": -1270.879197761194
+            },
+            {
+                "name": null,
+                "index": 332,
+                "slack": -1270.7193718905473
+            },
+            {
+                "name": null,
+                "index": 333,
+                "slack": -2569.879197761194
+            },
+            {
+                "name": null,
+                "index": 334,
+                "slack": -1316.663868159204
+            },
+            {
+                "name": null,
+                "index": 335,
+                "slack": -1316.7657027363184
+            },
+            {
+                "name": null,
+                "index": 336,
+                "slack": -1282.2342972636816
+            },
+            {
+                "name": null,
+                "index": 337,
+                "slack": -1282.1456778606964
+            },
+            {
+                "name": null,
+                "index": 338,
+                "slack": -0.42739427860696466
+            },
+            {
+                "name": null,
+                "index": 339,
+                "slack": -2598.5292288557216
+            },
+            {
+                "name": null,
+                "index": 340,
+                "slack": -2598.5292288557216
+            },
+            {
+                "name": null,
+                "index": 341,
+                "slack": -0.3330223880597014
+            },
+            {
+                "name": null,
+                "index": 342,
+                "slack": -2598.4707711442784
+            },
+            {
+                "name": null,
+                "index": 343,
+                "slack": -2598.4707711442784
+            },
+            {
+                "name": null,
+                "index": 344,
+                "slack": -0.23320895522388058
+            },
+            {
+                "name": null,
+                "index": 345,
+                "slack": -2598.335043532338
+            },
+            {
+                "name": null,
+                "index": 346,
+                "slack": -2598.335043532338
+            },
+            {
+                "name": null,
+                "index": 347,
+                "slack": -0.4956467661691541
+            },
+            {
+                "name": null,
+                "index": 348,
+                "slack": -2598.664956467662
+            },
+            {
+                "name": null,
+                "index": 349,
+                "slack": -2598.664956467662
+            },
+            {
+                "name": null,
+                "index": 350,
+                "slack": -1316.4025186567164
+            },
+            {
+                "name": null,
+                "index": 351,
+                "slack": -1316.504353233831
+            },
+            {
+                "name": null,
+                "index": 352,
+                "slack": -1282.495646766169
+            },
+            {
+                "name": null,
+                "index": 353,
+                "slack": -1282.3383084577115
+            },
+            {
+                "name": null,
+                "index": 354,
+                "slack": -1317.4623756218905
+            },
+            {
+                "name": null,
+                "index": 355,
+                "slack": -2616.4623756218907
+            },
+            {
+                "name": null,
+                "index": 356,
+                "slack": -1281.414800995025
+            },
+            {
+                "name": null,
+                "index": 357,
+                "slack": -2580.5376243781093
+            },
+            {
+                "name": null,
+                "index": 358,
+                "slack": -1316.559856965174
+            },
+            {
+                "name": null,
+                "index": 359,
+                "slack": -2615.6616915422887
+            },
+            {
+                "name": null,
+                "index": 360,
+                "slack": -1316.6616915422885
+            },
+            {
+                "name": null,
+                "index": 361,
+                "slack": -1282.3383084577115
+            },
+            {
+                "name": null,
+                "index": 362,
+                "slack": -2581.3383084577113
+            },
+            {
+                "name": null,
+                "index": 363,
+                "slack": -1282.2342972636816
+            },
+            {
+                "name": null,
+                "index": 364,
+                "slack": -0.6990049751243781
+            },
+            {
+                "name": null,
+                "index": 365,
+                "slack": -2598.800839552239
+            },
+            {
+                "name": null,
+                "index": 366,
+                "slack": -2598.800839552239
+            },
+            {
+                "name": null,
+                "index": 367
+            },
+            {
+                "name": null,
+                "index": 368,
+                "slack": -2598.199160447761
+            },
+            {
+                "name": null,
+                "index": 369,
+                "slack": -2598.199160447761
+            },
+            {
+                "name": null,
+                "index": 370,
+                "slack": -1327.6669776119404
+            },
+            {
+                "name": null,
+                "index": 371,
+                "slack": -1327.5461753731345
+            },
+            {
+                "name": null,
+                "index": 372,
+                "slack": -1271.1991604477612
+            },
+            {
+                "name": null,
+                "index": 373,
+                "slack": -1271.3330223880596
+            },
+            {
+                "name": null,
+                "index": 374,
+                "slack": -2598.120802238806
+            },
+            {
+                "name": null,
+                "index": 375
+            },
+            {
+                "name": null,
+                "index": 376,
+                "slack": -2598.879197761194
+            },
+            {
+                "name": null,
+                "index": 377,
+                "slack": -0.7193718905472638
+            },
+            {
+                "name": null,
+                "index": 378,
+                "slack": -2615.7657027363184
+            },
+            {
+                "name": null,
+                "index": 379,
+                "slack": -2581.2342972636816
+            },
+            {
+                "name": null,
+                "index": 380,
+                "slack": -1292.5292288557214
+            },
+            {
+                "name": null,
+                "index": 381,
+                "slack": -1292.4084266169154
+            },
+            {
+                "name": null,
+                "index": 382,
+                "slack": -1306.3330223880598
+            },
+            {
+                "name": null,
+                "index": 383,
+                "slack": -1306.4707711442786
+            },
+            {
+                "name": null,
+                "index": 384,
+                "slack": -1317.3350435323384
+            },
+            {
+                "name": null,
+                "index": 385,
+                "slack": -1317.2142412935325
+            },
+            {
+                "name": null,
+                "index": 386,
+                "slack": -1281.495646766169
+            },
+            {
+                "name": null,
+                "index": 387,
+                "slack": -1281.6649564676616
+            },
+            {
+                "name": null,
+                "index": 388,
+                "slack": -2615.504353233831
+            },
+            {
+                "name": null,
+                "index": 389,
+                "slack": -2581.495646766169
+            },
+            {
+                "name": null,
+                "index": 390,
+                "slack": -0.3415733830845765
+            },
+            {
+                "name": null,
+                "index": 391,
+                "slack": -0.414800995024876
+            },
+            {
+                "name": null,
+                "index": 392,
+                "slack": -2615.6616915422887
+            },
+            {
+                "name": null,
+                "index": 393,
+                "slack": -1316.5408893034826
+            },
+            {
+                "name": null,
+                "index": 394,
+                "slack": -2581.3383084577113
+            },
+            {
+                "name": null,
+                "index": 395,
+                "slack": -1282.3383084577115
+            },
+            {
+                "name": null,
+                "index": 396,
+                "slack": -1281.8008395522388
+            },
+            {
+                "name": null,
+                "index": 397,
+                "slack": -1281.6800373134329
+            },
+            {
+                "name": null,
+                "index": 398,
+                "slack": -1317.0
+            },
+            {
+                "name": null,
+                "index": 399,
+                "slack": -1317.1991604477612
+            },
+            {
+                "name": null,
+                "index": 400,
+                "slack": -1282.3199626865671
+            },
+            {
+                "name": null,
+                "index": 401,
+                "slack": -1282.4538246268655
+            },
+            {
+                "name": null,
+                "index": 402,
+                "slack": -2581.4538246268658
+            },
+            {
+                "name": null,
+                "index": 403,
+                "slack": -1316.5461753731345
+            },
+            {
+                "name": null,
+                "index": 404,
+                "slack": -1316.3863495024877
+            },
+            {
+                "name": null,
+                "index": 405,
+                "slack": -2615.5461753731342
+            },
+            {
+                "name": null,
+                "index": 406,
+                "slack": -1305.9648631840796
+            },
+            {
+                "name": null,
+                "index": 407,
+                "slack": -1306.098725124378
+            },
+            {
+                "name": null,
+                "index": 408,
+                "slack": -1292.901274875622
+            },
+            {
+                "name": null,
+                "index": 409,
+                "slack": -1292.8126554726368
+            },
+            {
+                "name": null,
+                "index": 410,
+                "slack": -0.7283893034825866
+            },
+            {
+                "name": null,
+                "index": 411,
+                "slack": -2598.8622512437814
+            },
+            {
+                "name": null,
+                "index": 412,
+                "slack": -2598.8622512437814
+            },
+            {
+                "name": null,
+                "index": 413
+            },
+            {
+                "name": null,
+                "index": 414,
+                "slack": -2598.1377487562186
+            },
+            {
+                "name": null,
+                "index": 415,
+                "slack": -2598.1377487562186
+            },
+            {
+                "name": null,
+                "index": 416,
+                "slack": -0.5342039800995035
+            },
+            {
+                "name": null,
+                "index": 417,
+                "slack": -2598.668065920398
+            },
+            {
+                "name": null,
+                "index": 418,
+                "slack": -2598.668065920398
+            },
+            {
+                "name": null,
+                "index": 419,
+                "slack": -0.1626243781094523
+            },
+            {
+                "name": null,
+                "index": 420,
+                "slack": -2598.331934079602
+            },
+            {
+                "name": null,
+                "index": 421,
+                "slack": -2598.331934079602
+            },
+            {
+                "name": null,
+                "index": 422,
+                "slack": -1270.703513681592
+            },
+            {
+                "name": null,
+                "index": 423,
+                "slack": -1270.8373756218905
+            },
+            {
+                "name": null,
+                "index": 424,
+                "slack": -1328.1626243781095
+            },
+            {
+                "name": null,
+                "index": 425,
+                "slack": -1328.005286069652
+            },
+            {
+                "name": null,
+                "index": 426,
+                "slack": -1306.79539800995
+            },
+            {
+                "name": null,
+                "index": 427,
+                "slack": -2605.7953980099505
+            },
+            {
+                "name": null,
+                "index": 428,
+                "slack": -1292.0817786069654
+            },
+            {
+                "name": null,
+                "index": 429,
+                "slack": -2591.2046019900495
+            },
+            {
+                "name": null,
+                "index": 430,
+                "slack": -1305.8608519900497
+            },
+            {
+                "name": null,
+                "index": 431,
+                "slack": -2604.9947139303486
+            },
+            {
+                "name": null,
+                "index": 432,
+                "slack": -1305.994713930348
+            },
+            {
+                "name": null,
+                "index": 433,
+                "slack": -1293.005286069652
+            },
+            {
+                "name": null,
+                "index": 434,
+                "slack": -2592.0052860696514
+            },
+            {
+                "name": null,
+                "index": 435,
+                "slack": -1292.901274875622
+            },
+            {
+                "name": null,
+                "index": 436
+            },
+            {
+                "name": null,
+                "index": 437,
+                "slack": -2598.1338619402986
+            },
+            {
+                "name": null,
+                "index": 438,
+                "slack": -2598.1338619402986
+            },
+            {
+                "name": null,
+                "index": 439,
+                "slack": -0.6669776119402986
+            },
+            {
+                "name": null,
+                "index": 440,
+                "slack": -2598.8661380597014
+            },
+            {
+                "name": null,
+                "index": 441,
+                "slack": -2598.8661380597014
+            },
+            {
+                "name": null,
+                "index": 442,
+                "slack": -2569.6449004975125
+            },
+            {
+                "name": null,
+                "index": 443,
+                "slack": -1270.6449004975125
+            },
+            {
+                "name": null,
+                "index": 444,
+                "slack": -2627.3550995024875
+            },
+            {
+                "name": null,
+                "index": 445,
+                "slack": -1328.2664800995024
+            },
+            {
+                "name": null,
+                "index": 446,
+                "slack": -1316.4084266169154
+            },
+            {
+                "name": null,
+                "index": 447,
+                "slack": -1316.2486007462687
+            },
+            {
+                "name": null,
+                "index": 448,
+                "slack": -2615.4084266169157
+            },
+            {
+                "name": null,
+                "index": 449,
+                "slack": -1282.4538246268658
+            },
+            {
+                "name": null,
+                "index": 450,
+                "slack": -1282.5915733830846
+            },
+            {
+                "name": null,
+                "index": 451,
+                "slack": -2581.5915733830843
+            },
+            {
+                "name": null,
+                "index": 452,
+                "slack": -1271.2142412935325
+            },
+            {
+                "name": null,
+                "index": 453,
+                "slack": -1271.0544154228858
+            },
+            {
+                "name": null,
+                "index": 454,
+                "slack": -2570.2142412935323
+            },
+            {
+                "name": null,
+                "index": 455,
+                "slack": -1327.616449004975
+            },
+            {
+                "name": null,
+                "index": 456,
+                "slack": -1327.7857587064675
+            },
+            {
+                "name": null,
+                "index": 457,
+                "slack": -2626.7857587064677
+            },
+            {
+                "name": null,
+                "index": 458,
+                "slack": -2569.383550995025
+            },
+            {
+                "name": null,
+                "index": 459,
+                "slack": -1270.383550995025
+            },
+            {
+                "name": null,
+                "index": 460,
+                "slack": -2627.616449004975
+            },
+            {
+                "name": null,
+                "index": 461,
+                "slack": -1328.4591106965174
+            },
+            {
+                "name": null,
+                "index": 462,
+                "slack": -0.18174751243781107
+            },
+            {
+                "name": null,
+                "index": 463,
+                "slack": -2598.341573383085
+            },
+            {
+                "name": null,
+                "index": 464,
+                "slack": -0.5356032338308455
+            },
+            {
+                "name": null,
+                "index": 465,
+                "slack": -2598.658426616915
+            },
+            {
+                "name": null,
+                "index": 466,
+                "slack": -2604.540889303483
+            },
+            {
+                "name": null,
+                "index": 467,
+                "slack": -1305.3810634328358
+            },
+            {
+                "name": null,
+                "index": 468,
+                "slack": -1305.5408893034826
+            },
+            {
+                "name": null,
+                "index": 469,
+                "slack": -2592.459110696517
+            },
+            {
+                "name": null,
+                "index": 470,
+                "slack": -1293.4591106965174
+            },
+            {
+                "name": null,
+                "index": 471,
+                "slack": -1293.3550995024875
+            },
+            {
+                "name": null,
+                "index": 472,
+                "slack": -1270.6800373134329
+            },
+            {
+                "name": null,
+                "index": 473,
+                "slack": -1270.5202114427861
+            },
+            {
+                "name": null,
+                "index": 474,
+                "slack": -2569.680037313433
+            },
+            {
+                "name": null,
+                "index": 475,
+                "slack": -1328.120802238806
+            },
+            {
+                "name": null,
+                "index": 476,
+                "slack": -1328.3199626865671
+            },
+            {
+                "name": null,
+                "index": 477,
+                "slack": -2627.319962686567
+            },
+            {
+                "name": null,
+                "index": 478,
+                "slack": -1327.763526119403
+            },
+            {
+                "name": null,
+                "index": 479,
+                "slack": -1327.6749067164178
+            },
+            {
+                "name": null,
+                "index": 480,
+                "slack": -1271.0987251243782
+            },
+            {
+                "name": null,
+                "index": 481,
+                "slack": -1271.236473880597
+            },
+            {
+                "name": null,
+                "index": 482,
+                "slack": -1317.56934079602
+            },
+            {
+                "name": null,
+                "index": 483,
+                "slack": -1317.4807213930349
+            },
+            {
+                "name": null,
+                "index": 484,
+                "slack": -1281.2613495024875
+            },
+            {
+                "name": null,
+                "index": 485,
+                "slack": -1281.43065920398
+            },
+            {
+                "name": null,
+                "index": 486,
+                "slack": -2598.7386504975125
+            },
+            {
+                "name": null,
+                "index": 487,
+                "slack": -0.6500310945273632
+            },
+            {
+                "name": null,
+                "index": 488,
+                "slack": -2598.2613495024875
+            },
+            {
+                "name": null,
+                "index": 489,
+                "slack": -0.10401119402985068
+            },
+            {
+                "name": null,
+                "index": 490,
+                "slack": -1317.608053482587
+            },
+            {
+                "name": null,
+                "index": 491,
+                "slack": -1281.303327114428
+            },
+            {
+                "name": null,
+                "index": 492,
+                "slack": -2598.8959888059703
+            },
+            {
+                "name": null,
+                "index": 493,
+                "slack": -0.8073694029850746
+            },
+            {
+                "name": null,
+                "index": 494,
+                "slack": -2598.1040111940297
+            },
+            {
+                "name": null,
+                "index": 495,
+                "dual": -0.00015547263681592042
+            },
+            {
+                "name": null,
+                "index": 496,
+                "slack": -1282.0351368159204
+            },
+            {
+                "name": null,
+                "index": 497,
+                "slack": -1281.9465174129352
+            },
+            {
+                "name": null,
+                "index": 498,
+                "slack": -1316.7657027363184
+            },
+            {
+                "name": null,
+                "index": 499,
+                "slack": -1316.9648631840796
+            },
+            {
+                "name": null,
+                "index": 500,
+                "slack": -0.6680659203980106
+            },
+            {
+                "name": null,
+                "index": 501,
+                "slack": -2598.8058146766166
+            },
+            {
+                "name": null,
+                "index": 502,
+                "slack": -2598.8058146766166
+            },
+            {
+                "name": null,
+                "index": 503,
+                "slack": -0.02487562189054593
+            },
+            {
+                "name": null,
+                "index": 504,
+                "slack": -2598.1941853233834
+            },
+            {
+                "name": null,
+                "index": 505,
+                "slack": -2598.1941853233834
+            },
+            {
+                "name": null,
+                "index": 506,
+                "slack": -1305.8373756218907
+            },
+            {
+                "name": null,
+                "index": 507,
+                "slack": -1305.9751243781095
+            },
+            {
+                "name": null,
+                "index": 508,
+                "slack": -1293.0248756218905
+            },
+            {
+                "name": null,
+                "index": 509,
+                "slack": -1292.8675373134329
+            },
+            {
+                "name": null,
+                "index": 510,
+                "slack": -1306.933146766169
+            },
+            {
+                "name": null,
+                "index": 511,
+                "slack": -2605.933146766169
+            },
+            {
+                "name": null,
+                "index": 512,
+                "slack": -1291.9440298507463
+            },
+            {
+                "name": null,
+                "index": 513,
+                "slack": -2591.066853233831
+            },
+            {
+                "name": null,
+                "index": 514,
+                "slack": -1305.9947139303483
+            },
+            {
+                "name": null,
+                "index": 515,
+                "slack": -2605.132462686567
+            },
+            {
+                "name": null,
+                "index": 516,
+                "slack": -1306.1324626865671
+            },
+            {
+                "name": null,
+                "index": 517,
+                "slack": -1292.8675373134329
+            },
+            {
+                "name": null,
+                "index": 518,
+                "slack": -2591.867537313433
+            },
+            {
+                "name": null,
+                "index": 519,
+                "slack": -1292.763526119403
+            },
+            {
+                "name": null,
+                "index": 520,
+                "slack": -0.13386194029850706
+            },
+            {
+                "name": null,
+                "index": 521,
+                "slack": -2598.271610696517
+            },
+            {
+                "name": null,
+                "index": 522,
+                "slack": -2598.271610696517
+            },
+            {
+                "name": null,
+                "index": 523,
+                "slack": -0.5292288557213922
+            },
+            {
+                "name": null,
+                "index": 524,
+                "slack": -2598.728389303483
+            },
+            {
+                "name": null,
+                "index": 525,
+                "slack": -2598.728389303483
+            },
+            {
+                "name": null,
+                "index": 526,
+                "slack": -1316.0
+            },
+            {
+                "name": null,
+                "index": 527,
+                "slack": -1316.1693097014925
+            },
+            {
+                "name": null,
+                "index": 528,
+                "slack": -1282.8306902985075
+            },
+            {
+                "name": null,
+                "index": 529,
+                "slack": -1282.67335199005
+            },
+            {
+                "name": null,
+                "index": 530,
+                "slack": -1317.127332089552
+            },
+            {
+                "name": null,
+                "index": 531,
+                "slack": -2616.1273320895525
+            },
+            {
+                "name": null,
+                "index": 532,
+                "slack": -1281.7498445273634
+            },
+            {
+                "name": null,
+                "index": 533,
+                "slack": -2580.8726679104475
+            },
+            {
+                "name": null,
+                "index": 534,
+                "slack": -1316.1573383084576
+            },
+            {
+                "name": null,
+                "index": 535,
+                "slack": -2615.3266480099505
+            },
+            {
+                "name": null,
+                "index": 536,
+                "slack": -1316.32664800995
+            },
+            {
+                "name": null,
+                "index": 537,
+                "slack": -1282.67335199005
+            },
+            {
+                "name": null,
+                "index": 538,
+                "slack": -2581.6733519900495
+            },
+            {
+                "name": null,
+                "index": 539,
+                "slack": -1282.56934079602
+            },
+            {
+                "name": null,
+                "index": 540,
+                "slack": -0.2964863184079601
+            },
+            {
+                "name": null,
+                "index": 541,
+                "slack": -2598.4657960199006
+            },
+            {
+                "name": null,
+                "index": 542,
+                "slack": -2598.4657960199006
+            },
+            {
+                "name": null,
+                "index": 543,
+                "slack": -0.3350435323383084
+            },
+            {
+                "name": null,
+                "index": 544,
+                "slack": -2598.5342039800994
+            },
+            {
+                "name": null,
+                "index": 545,
+                "slack": -2598.5342039800994
+            },
+            {
+                "name": null,
+                "index": 546,
+                "slack": -1317.800684079602
+            },
+            {
+                "name": null,
+                "index": 547,
+                "slack": -1281.0419776119404
+            },
+            {
+                "name": null,
+                "index": 548,
+                "slack": -2598.157338308458
+            },
+            {
+                "name": null,
+                "index": 549,
+                "slack": 2.7755575615628914e-17
+            },
+            {
+                "name": null,
+                "index": 550,
+                "slack": -2598.842661691542
+            },
+            {
+                "name": null,
+                "index": 551,
+                "slack": -0.7386504975124377
+            },
+            {
+                "name": null,
+                "index": 552,
+                "slack": -1282.296486318408
+            },
+            {
+                "name": null,
+                "index": 553,
+                "slack": -1282.1391480099503
+            },
+            {
+                "name": null,
+                "index": 554,
+                "slack": -1316.504353233831
+            },
+            {
+                "name": null,
+                "index": 555,
+                "slack": -1316.703513681592
+            },
+            {
+                "name": null,
+                "index": 556,
+                "slack": -1281.0764925373135
+            },
+            {
+                "name": null,
+                "index": 557,
+                "slack": -1281.199315920398
+            },
+            {
+                "name": null,
+                "index": 558,
+                "slack": -1317.800684079602
+            },
+            {
+                "name": null,
+                "index": 559,
+                "slack": -1317.696672885572
+            },
+            {
+                "name": null,
+                "index": 560,
+                "slack": -1281.2156405472638
+            },
+            {
+                "name": null,
+                "index": 561,
+                "slack": -2580.338463930348
+            },
+            {
+                "name": null,
+                "index": 562,
+                "slack": -1317.6615360696517
+            },
+            {
+                "name": null,
+                "index": 563,
+                "slack": -2616.661536069652
+            },
+            {
+                "name": null,
+                "index": 564,
+                "slack": -1317.1391480099503
+            },
+            {
+                "name": null,
+                "index": 565,
+                "slack": -2616.13914800995
+            },
+            {
+                "name": null,
+                "index": 566,
+                "slack": -1317.0351368159204
+            },
+            {
+                "name": null,
+                "index": 567,
+                "slack": -1281.6616915422885
+            },
+            {
+                "name": null,
+                "index": 568,
+                "slack": -2580.86085199005
+            },
+            {
+                "name": null,
+                "index": 569,
+                "slack": -1281.8608519900497
+            }
+        ]
+    }
+}
