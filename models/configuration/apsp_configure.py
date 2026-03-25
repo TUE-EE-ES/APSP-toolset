@@ -19,7 +19,7 @@ class APSPConfigure():
                 Tasks: t0, t1, t2 .....
                 Processors: r0, r1, r2 .....
             - Figure styling matches with Figure 2 in the paper
-        2. PAPER
+        2. CUSTOM
             - Custom variable naming
                 Tasks: custom_task_name0, custom_task_name1, custom_task_name2 .....
                 Resources: custom_resource_name0, custom_resource_name1, custom_resource_name2 .....
@@ -35,7 +35,7 @@ class APSPConfigure():
         self.figure_repetitions = 3
         self.time_units = "($\mu s$)" # optional
 
-        self.mode = APSPConfigure.APSPConfig.PAPER # Set configuration mode
+        self.mode = APSPConfigure.APSPConfig.SDF3 # Set configuration mode
         self.custom_task_name = "tasks" # Set custom task name (if mode = CUSTOM)
         self.custom_resource_name = "resources" # Set custom task name (if mode = CUSTOM)
 

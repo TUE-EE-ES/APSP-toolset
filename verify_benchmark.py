@@ -29,8 +29,8 @@ if not os.path.isdir(verification_results_path):
     os.makedirs(verification_results_path)
 
 # Output schema: one verification verdict column per technique.
-RESULTS = pd.DataFrame(columns=["Quinton Monolithic", "Bounded Monolithic", "Quinton Bounded Monolithic", "Quinton Benders",
-                                "Bounded Benders", "Quinton Bounded Benders",
+RESULTS = pd.DataFrame(columns=["Quinton Monolithic", "Bounded Monolithic", "Bounded Quinton Monolithic", "Quinton Benders",
+                                "Bounded Benders", "Bounded Quinton Benders",
                                 ])
 RESULTS.index.names = ['Experiment']
 
@@ -58,11 +58,11 @@ for i, filename in enumerate(sorted(os.listdir(graph_path))):
 
     # Run per-technique verification and attach objective consistency check.
     qm = verify_solution("Quinton_Monolithic", graph_path, graph, results_path, row["Quinton Monolithic Objective"].tolist()[0])
-    om = verify_solution("VanOs_Monolithic", graph_path, graph, results_path, row["Our Monolithic Objective"].tolist()[0])
-    qbm = verify_solution("QuintonOs_Monolithic", graph_path, graph, results_path, row["Quinton Bounded Monolithic Objective"].tolist()[0])
+    om = verify_solution("Bounded_Monolithic", graph_path, graph, results_path, row["Bounded Monolithic Objective"].tolist()[0])
+    qbm = verify_solution("Bounded_Quinton_Monolithic", graph_path, graph, results_path, row["Bounded Quinton Monolithic Objective"].tolist()[0])
     qb = verify_solution("Quinton_Benders", graph_path, graph, results_path, row["Quinton Benders Objective"].tolist()[0])
-    ob = verify_solution("VanOs_Benders", graph_path, graph, results_path, row["Our Benders Objective"].tolist()[0])
-    qbb = verify_solution("QuintonOs_Benders", graph_path, graph, results_path, row["Quinton Bounded Benders Objective"].tolist()[0])
+    ob = verify_solution("Bounded_Benders", graph_path, graph, results_path, row["Bounded Benders Objective"].tolist()[0])
+    qbb = verify_solution("Bounded_Quinton_Benders", graph_path, graph, results_path, row["Bounded Quinton Benders Objective"].tolist()[0])
 
 
     # Write results into csv line

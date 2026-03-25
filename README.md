@@ -1,7 +1,9 @@
 # APSP Toolset
 **Authors:** _Roel van Os, Marc Geilen, Martijn Hendriks, Twan Basten_ 
 
-**Link to repository:** https://github.com/TUE-EE-ES/APSP-toolset
+**Link to release:** https://github.com/TUE-EE-ES/APSP-toolset/releases/tag/1.0.0
+
+For any questions feel free to contact: Roel van Os (r.w.m.v.os@tue.nl).
 
 ---
 This repository includes software and benchmark assets for solving the Allocation and Periodic Scheduling Problem (APSP) as described in (`[APSP-2026]`). For any questions feel free to contact: Roel van Os (r.w.m.v.os@tue.nl). 
@@ -29,6 +31,8 @@ There are no specific system requirements for running this software. The impleme
 - `benchmark/`: Precomputed results as seen in the paper
 - `benchmark_full/`: skeleton folder for a full benchmark run.
 - `benchmark_shortened/`: skeleton folder for a shortened benchmark run.
+- `combinatorial_optimization_tools`: code for constructing and solving combinatorial optimization problems such as the APSP.
+- `sdf3_python_utilities`: code for parsing and converting SDF3 files to usable python data structures.
 
 All default file settings correspond to those used for finding the results as reported in (`[APSP-2026]`)
 
@@ -88,6 +92,20 @@ python -c "import cplex, docplex; print('CPLEX + DOcplex OK')"
 
 If this import fails, the solver will not run.
 
+## View Paper Results
+
+The main results from the paper can be found in the `/benchmark` folder. Additional scalability experiments mentioned in the paper can be found in the `/benchmark_scaling` folder.
+
+### Generate Paper Figures
+
+>**NOTE:** To regenarate paper figures you need a valid LaTeX installation.
+
+The scripts in `/benchmark` can be used to generate the figures from the paper. 
+- `results_optimality_count.py`: Bar chart of the optimality count for all modeling techniques (fig. 7 in paper)
+- `results_accuracy_issues.py`: Bar chart of the accuracy issues per benchmark set for all modeling techniques (fig. 8 in paper)
+- `results_solve_time.py`: Boxplot of solve time for all modeling techniques (fig. 9 in paper)
+
+
 ## Replicate Paper Results
 
 >**NOTE:** To run the benchmark used in `[APSP-2026]`, the full version of CPLEX is required.
@@ -103,6 +121,8 @@ python solve_benchmark.py
 ```bash
 python verify_benchmark.py
 ```
+>**NOTE:** Note that the `mode` specified in `models/configuration/apsp_configure.py` need to be the same for both the solving and verification of the benchmark in order to succesfully verify the results. E.g. existing benchmarks in `\benchmark` and `\benchmark_scaling` were ran with `SDF3` mode, so to reverify all results `SDF3` mode needs to be configured in `models/configuration/apsp_configure.py`.
+> 
 3. Open: `benchmark_full`
 ```bash
 cd benchmark_full
@@ -138,6 +158,8 @@ Two folders are provided:
 - `benchmark_full/`: Contains the full set of benchmark graphs as reported in `[APSP-2026]`
 - `benchmark_shortened/`: Contains a quarter of the set of benchmark graphs
 
+To select either benchmark change the `experiments_folder`.
+
 _A full benchmark run takes roughly 8 days to complete. For the artifact evaluation we also provide a shortened benchmark with an expected runtime of approximately two days, that provides an indication of the trends reported in the paper._
 
 #### Run instructions:
@@ -160,15 +182,14 @@ Outputs are written to:
 ### Verification runs
 
 Upon completion of a benchmark run.
-Use `verify_benchmark.py` to verify all benchmark outputs for correctness and accuracy issues.
-
+Use `verify_benchmark.py` to verify the results of the benchmark outputs for correctness and accuracy issues, which generates statistics about the stability of each model.
 ```bash
 python verify_benchmark.py
 ```
 
 ### Results Evaluation
 
-Upon completion of a full benchmark run, and completed verification. The scripts in `benchmark_name/` can be used to figures. 
+Upon completion of a full benchmark run, and completed verification. The scripts in `benchmark_name/` can be used to generate figures. 
 - `results_optimality_count.py`: Bar chart of the optimality count for all modeling techniques (fig. 7 in paper)
 - `results_accuracy_issues.py`: Bar chart of the accuracy issues per benchmark set for all modeling techniques (fig. 8 in paper)
 - `results_solve_time.py`: Boxplot of solve time for all modeling techniques (fig. 9 in paper)

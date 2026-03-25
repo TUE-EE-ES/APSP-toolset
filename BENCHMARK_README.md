@@ -15,12 +15,10 @@ Top-level files:
 Subfolders:
 
 - `graphs/`: input SDF3 graph instances (`.xml`) used by `solve_benchmark.py`.
+- `graph_figures/`: extra graph visualization assets.
 - `opts/`: generator option templates (`.opt`) for benchmark sets.
 - `results/`: detailed per-instance solver exports.
-- `figures/`: per-instance schedule figures produced by model runs.
-- `graph_figures/`: extra graph visualization assets.
-- `skip/`: archived/excluded graph files used during data curation (not automatically consumed by `solve_benchmark.py`).
-- `verification-results/`: reserved folder (currently empty in this repository state).
+- `results_figures/`: per-instance schedule figures produced by model runs.
 
 ## Benchmark Instance Naming
 

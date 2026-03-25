@@ -56,7 +56,7 @@ def verify_solution(identifier, graph_path, graph_name, results_path, reference_
                         if t not in start_times:
                             start_times[t] = 0
 
-        if "VanOs" in identifier:
+        if "Quinton" not in identifier:
             # VanOs variants keep objective and starts directly in absolute values.
             objective = round(float(result_data['CPLEXSolution']['header']['objectiveValue']))
 
@@ -69,8 +69,11 @@ def verify_solution(identifier, graph_path, graph_name, results_path, reference_
                     binding[f"a{actor}"] = f"proc_{proc}"
 
 
-                if v['name'][0] == 'z' and round(float(v['value'])) == 1:
-                    pattern_z = r'^(z)_a(\d{1,2}|100)_a(\d{1,2}|100)_(\d{1,2}|100000)$'
+                if v['name'][0] == 'y' or v['name'][0] == 'z' and round(float(v['value'])) == 1:
+                    if v['name'][0] == 'y':
+                        pattern_z = r'^(y)_a(\d{1,2}|100)_a(\d{1,2}|100)_(\d{1,2}|100000)$'
+                    else:
+                        pattern_z = r'^(z)_a(\d{1,2}|100)_a(\d{1,2}|100)_(\d{1,2}|100000)$'
                     match_z = re.match(pattern_z, v['name'])
                     name, actor0, actor1, distance = match_z.groups()
 
@@ -153,7 +156,7 @@ def verify_solution(identifier, graph_path, graph_name, results_path, reference_
                             if t not in start_times:
                                 start_times[t] = 0
 
-            if "VanOs" in identifier:
+            if "Quinton" not in identifier:
                 objective = round(float(sub_result_data['CPLEXSolution']['header']['objectiveValue']))
 
                 for v in master_result_txt_data.keys():
@@ -164,8 +167,11 @@ def verify_solution(identifier, graph_path, graph_name, results_path, reference_
                         name, actor, proc = match_x.groups()
                         binding[f"a{actor}"] = f"proc_{proc}"
 
-                    if v[0] == 'z' and round(float(master_result_txt_data[v])) == 1:
-                        pattern_z = r'^(z)_a(\d{1,2}|100)_a(\d{1,2}|100)_(\d{1,2}|100000)$'
+                    if v[0] == 'y' or v[0] == 'z' and round(float(master_result_txt_data[v])) == 1:
+                        if v[0] == 'y':
+                            pattern_z = r'^(y)_a(\d{1,2}|100)_a(\d{1,2}|100)_(\d{1,2}|100000)$'
+                        else:
+                            pattern_z = r'^(z)_a(\d{1,2}|100)_a(\d{1,2}|100)_(\d{1,2}|100000)$'
                         match_z = re.match(pattern_z, v)
                         name, actor0, actor1, distance = match_z.groups()
 

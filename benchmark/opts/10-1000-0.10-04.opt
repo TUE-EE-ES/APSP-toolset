@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+    <sdf3 type='sdf' version='1.0'
+        xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xsi:noNamespaceSchemaLocation='http://www.es.ele.tue.nl/sdf3/xsd/sdf3-sdf.xsd'>
+      <settings type="generate">
+        <graph>
+          <actors nr="10"/>
+          <degree avg="2" var="2" min="1" max="3" repetitionVectorSum="1"/>
+          <rate avg="1" var="1" min="1" max="1"/>
+          <initialTokens prop="0.1"/>
+          <structure stronglyConnected="false" acyclic="false" />
+        </graph>
+        <graphProperties>
+          <procs nrTypes="4" mapChance="0.8"/>
+          <execTime avg="1000" var="300" min="1" max="1300"/>
+          <stateSize avg="0" var="1" min="0" max="0"/>
+          <tokenSize avg="0" var="1" min="0" max="0"/>
+          <bufferSize/>
+        </graphProperties>
+      </settings>
+    </sdf3>
+    

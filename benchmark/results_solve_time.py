@@ -32,16 +32,6 @@ TECHNIQUES = [
 ]
 
 
-TIME_COLUMN_TO_SUBSCRIPT = {
-    "Quinton Monolithic Time": "Quinton Monolithic",
-    "Our Monolithic Time": "Bounded Monolithic",
-    "Quinton Bounded Monolithic Time": "Quinton Bounded Monolithic",
-    "Quinton Benders Time": "Quinton Benders",
-    "Our Benders Time": "Our Benders",
-    "Quinton Bounded Benders Time": "Quinton Bounded Benders",
-}
-
-
 def _ordered_status_columns(df: pd.DataFrame) -> list[str]:
     """Return status columns in the same fixed order as the original script."""
     status_columns = [col for col in df.columns if "Status" in col]
@@ -224,7 +214,7 @@ def _build_boxplot_stats(df: pd.DataFrame, time_columns: list[str]) -> dict[str,
     for time_column in time_columns:
         stats[time_column] = my_boxplot_stats(
             df[time_column],
-            labels=TIME_COLUMN_TO_SUBSCRIPT[time_column],
+            labels=time_column,
             percents=[UNDER_PERCENTILE, UPPER_PERCENTILE],
             whis=[UNDER_WHISKER_PERCENTILE, UPPER_WHISKER_PERCENTILE],
         )[0]

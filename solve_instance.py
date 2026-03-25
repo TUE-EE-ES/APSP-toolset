@@ -51,7 +51,6 @@ qm_time = model.get_solve_time()
 qm_objective = 1 / model.get_objective()
 qm_status = model.get_status()
 model.print_figure()
-model.additional_output_information()
 model.print_figure()
 # ----------------------------
 
@@ -82,7 +81,7 @@ model.print_figure()
 # ----------------------------
 
 
-# [DISABLED] uncomment this full block to enable
+# [ENABLED] comment this full block to disable
 print('Quinton Benders')
 model = Quinton_Benders.QuintonMagnantiWongBenders('Quinton Benders', data)
 model.set_iterations(iterations)
@@ -92,7 +91,6 @@ qb_time = model.get_solve_time()
 qb_it = model.iteration
 qb_objective = 1 / model.get_objective()
 qb_status = model.get_status()
-model.additional_output_information()
 model.print_figure()
 # ----------------------------
 
@@ -121,7 +119,6 @@ qbb_time = model.get_solve_time()
 qbb_it = model.iteration
 qbb_objective = 1/model.get_objective()
 qbb_status = model.get_status()
-model.additional_output_information()
 model.print_figure()
 # ----------------------------
 
