@@ -1,5 +1,5 @@
 import pandas as pd
-from verifiy_instance import *
+from verify_instance import *
 
 # Experiment folder and solver defaults used for verification runs.
 experiments_folder = "/benchmark_full/"
