@@ -38,12 +38,12 @@ All default file settings correspond to those used for finding the results as re
 
 ## Python Requirements
 
-Required: Python 3.10+ environment.
+Required: Python 3.8, 3.9 or 3.10 environment.
 
 Core packages to run the optimization models:
 
-- `docplex`: v2.29.241
-- `cplex`: v22.1.1.0
+- `docplex`: v2.29.241 
+- `cplex`: v22.1.1
 - `pandas`: v2.2.3
 - `matplotlib`: v3.10.1
 - `interruptingcow`v0.8
